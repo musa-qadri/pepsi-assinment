@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mulish:wght@300&family=Noto+Sans:wght@300;400&family=Nunito:ital,wght@1,200&family=Poppins&family=Roboto:ital,wght@1,900&family=Stick+No+Bills:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Heebo:wght@800&family=Kanit:wght@600&family=Merriweather+Sans:wght@700&family=Merriweather:wght@900&family=Mulish:wght@300&family=Noto+Sans:wght@300;400&family=Nunito:ital,wght@1,200&family=Poppins&family=Roboto:ital,wght@1,900&family=Stick+No+Bills:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Heebo:wght@800;900&family=Kanit:wght@600&family=Merriweather+Sans:wght@700&family=Merriweather:wght@900&family=Mulish:wght@300&family=Noto+Sans:wght@300;400&family=Nunito:ital,wght@1,200&family=Passion+One:wght@700&family=Poppins&family=Roboto:ital,wght@1,900&family=Rowdies&family=Stick+No+Bills:wght@700&display=swap');
+
+
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.head {
+    width: 100%;
+    height: 115px;
+    background-color: rgb(4, 4, 248);
+    display: flex;
+    align-items: center;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    top: 0px;
+    flex: 1;
+}
+
+.head-6 {
+    flex: 2 !important;
+}
+
+.foot-img {
+    display: flex;
+}
+
+/* .head-5,
+.btn-hamb {
+    display: none;
+} */
+
+.pvt {
+    display: none;
+}
+.texts{
+    display: flex;
+}
+.text123{
+    display: none;
+}
+.text-1{
+    display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .pvt {
+        display: block;
+
+    }
+    .pvt {
+            width: 100%;
+            height: 115px;
+            background-color: rgb(4, 4, 248);
+            font-family: 'Heebo', sans-serif;
+            font-size: 18px;
+            color: white;
+            position: fixed;
+            top: 0px;
+            
+
+    }
+    .pvt{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around; 
+
+        
+    }
+    .pvt-btn-1 img{
+        height: 80px;
+        width: 50px;
+    } 
+    .pvt-btn-2{
+        width: 600px;
+        text-align: center;
+
+
+    }
+    .pvt-btn-3{
+        font-size: 30px;
+
+    }
+
+    .head{
+        display: none;
+    }
+
+   
+
+    .foot-img {
+        display: none;
+    }
+    .texts{
+        display: none;
+
+    }
+    .text123{
+        display: block;
+    }
+/* knkksxnqskqssssssssssssssssss */
+    .text123 {
+        font-family: 'Heebo', sans-serif;
+        width: 100%;
+        height: 450px;
+        margin-top: 50px;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .text123 h2 {
+        font-size: 100px;
+        width: 100%;
+        height: 500;
+        line-height: 90px;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .text123 h3 {
+        text-align: center;
+        font-size: 50px;
+        margin: 0px;
+        height: 65px;
+        padding: 0px;
+    
+    }
+    #blue-font{
+        width: 490px;
+        height: 90px;
+        margin: 0px auto;
+    }
+    
+    #blue-font {
+        text-align: center;
+        font-size: 60px;
+        color: white !important;
+        background-color: blue;
+    }
+        /* next work */
+        .text-1{
+            display: none;
+        }
+        .text-786{
+            
+        }
+            
+    
+    .text-1 {
+        font-family: 'Passion One', cursive;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 260px;
+        background-color: black;
+        margin: 0px;
+        padding-top: 25px;
+    
+    
+    }
+    
+    .text-1 h2 {
+        margin: 0px;
+        font-size: 90px;
+        color: white;
+        height: 60px;
+        padding-bottom: 17px;
+    }
+    
+    .text-1 h3 {
+        margin: 0px;
+        color: blue;
+        font-size: 70px;
+        height: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .text-1 h1 {
+        margin: 0px;
+        height: 100px;
+        padding-bottom: 10px;
+        line-height: 100px;
+        color: blue;
+        font-size: 140px;
+    }
+   
+
+}
+
+
+
+
+.headbtn-1 img {
+    height: 80px;
+    width: 80px;
+    padding-top: 15px;
+    padding-left: 40px;
+
+
+}
+
+
+.head li {
+    font-family: 'Heebo', sans-serif;
+    display: inline;
+    list-style: none;
+    padding: 25px;
+
+}
+
+.headbtn-4 p {
+
+    border: 3px solid white;
+    border-radius: 50px;
+    font-family: 'Heebo', sans-serif;
+    width: 280px;
+    height: 33px;
+    text-align: center;
+    padding-top: 4px;
+
+
+}
+
+.headbtn-4 {
+
+    padding-right: 10px;
+}
+
+.hero__video {
+    width: 100%;
+    margin-top: 116px;
+
+}
+
+.texts {
+    font-family: 'Heebo', sans-serif;
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.texts h2 {
+    font-size: 130px;
+    width: 100%;
+    line-height: 90px;
+    margin: 0px;
+}
+
+.texts h3 {
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+    height: 65px;
+    padding: 0px;
+
+}
+
+#blue-font {
+    text-align: center;
+    color: rgb(24, 24, 214);
+}
+
+.img-add img {
+    width: 100%;
+
+}
+
+.text-1 {
+    font-family: 'Passion One', cursive;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    margin: 0px;
+    padding-top: 25px;
+
+
+}
+
+.text-1 h2 {
+    margin: 0px;
+    font-size: 90px;
+    color: white;
+    height: 60px;
+    padding-bottom: 17px;
+}
+
+.text-1 h3 {
+    margin: 0px;
+    color: blue;
+    font-size: 70px;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+.text-1 h1 {
+    margin: 0px;
+    height: 100px;
+    padding-bottom: 10px;
+    line-height: 100px;
+    color: blue;
+    font-size: 140px;
+}
+
+.mid {
+    color: white;
+}
+
+.img-background {
+    cursor: pointer;
+}
+
+.parag {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    height: 120px;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.parag p {
+    margin: 0px;
+}
+
+.bottel-img {
+    background: url(//www.sweepstakesbible.com/sites/default/files/sweep_imgs/pressplayonsummer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    z-index: -1;
+
+}
+
+.bottel-img h1 {
+    color: white;
+    border: 3px solid white;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 240px;
+    left: 200px;
+    cursor: pointer;
+}
+
+.other__video {
+    width: 100%;
+}
+
+.footers {
+    width: 100%;
+    height: 420px;
+    /* text-align: center; */
+}
+
+.footer-1 {
+    width: 100%;
+    height: 80px;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.foot-img {
+    /* display: flex; */
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 5px solid blue;
+    background-color: black;
+    margin: 0px 90px;
+}
+
+.foot-img-1 img {
+    width: 249px;
+    height: 250px;
+    padding: 0px;
+
+}
+
+.footer-end {
+    font-family: 'Heebo', sans-serif;
+    background-color: blue;
+    width: 100%;
+    height: 250px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    text-align: center;
+
+
+}
+
+.pepsi-logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.content-1 {
+    font-size: 20px;
+    line-height: 15px;
+    font-size: 21px;
+    justify-content: start;
+
+}
+
+.icons {
+    width: 350px;
+    height: 40px;
+    margin-top: 55px;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.icon-1 img {
+    width: 40px;
+    padding: 0px;
+}
