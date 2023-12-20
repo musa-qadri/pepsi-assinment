@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pepsi.com</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ffa78c1ea3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://kit.fontawesome.com/ffa78c1ea3.js" crossorigin="anonymous"></script>
@@ -13,43 +15,66 @@
 </head>
 
 <body>
-    <nav>
-        <div class="head">
-            <div class="headbtn-1"><img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Pepsi_2023.svg" />
-            </div>
-            <div class="head-6">
-                <ul>
-                    <li> VIEW PRODUCTS <i class="fa-solid fa-angle-down"></i></li>
-                    <li> #PEPSI125</li>
-                    <li> CONTACT US</li>
-                </ul>
-            </div>
-            <!-- <div class="head-5">
-                <p>VIEW PRODUCTS <i class="fa-solid fa-angle-down"></i></p>
-            </div>
-            <div class="btn-hamb">
-                <p><i class="fa-sharp fa-regular fa-bars fa-fade"></i></p>
 
-            </div> -->
-            <div class="headbtn-4">
-                <p>BUY PEPSI PRODUCT</p>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pepsi_2023.svg/800px-Pepsi_2023.svg.png"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">VIEW PRPDUCTS <i
+                                    class="fa-solid fa-angle-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">#PEPSI125</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li> -->
+                        <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+                        <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+                    </ul>
+                    <form class="d-flex">
+                        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                        <button class="btn btn-outline-success" type="submit">BUY PEPSI PRODUCTS</button>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div class="pvt">
-            <div class="pvt-btn-1"><img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Pepsi_2023.svg" /></div>
-            <div class="pvt-btn-2"><h4>VIEW PRODUCTS <i class="fa-solid fa-angle-down"></i></h4></div>
-            <div class="pvt-btn-3"> <p><i class="fa-sharp fa-solid fa-bars"></i></p></div>
-        </div>
-    </nav>
+        </nav>
+    </section>
 
     <video controls="" controlslist="nodownload noremoteplayback" class="hero__video" kind="captions" type="video/mp4"
         src="https://www.pepsi.com/en-us/refresh082123/media/PEPSI_2023_PR_Sizzle_1920px_trimmed.mp4"
         poster="https://www.pepsi.com/en-us/refresh082123/media/LoadVideo_1920.png" autoplay="true" loop="true"
-        playsinline="true" muted="true"></video>
+        playsinline="true" muted="true">
+    </video>
 
     <div class="texts">
         <h2>
-            CELEBRATING 125&nbsp;YEARS
+            CELEBRATING 125 &nbsp; YEARS
         </h2>
         <h3>OF PEPSI FOR 125 DAYS.</h3>
         <h3 id="blue-font"> CHECK BACK ON 8.28 FOR OUR BIRTHDAY KICK‑OFF.</h3>
@@ -59,7 +84,7 @@
             CELEBRATING 125&nbsp;YEARS
         </h2>
         <h3>OF PEPSI FOR 125 DAYS.</h3>
-        <h3 id="blue-font"> FOLLOW&nbsp; ALONG</h3>
+        <h3 id="blue-font"> FOLLOW ALONG</h3>
     </div>
     <div class="img-add">
         <img src="https://www.pepsi.com/en-us/refresh082123/images/PEP_125Years_ExternalKV_EF_v3_Grid.png" />
@@ -70,30 +95,23 @@
         <h1>PEPSI <span class="mid">125 DINER</span> IN NYC</h1>
     </div>
     <div class="img-background">
-        "<img src="https://www.pepsi.com/en-us/refresh082123/images/PEP_125Diner_3x4.png"
+        <img src="https://www.pepsi.com/en-us/refresh082123/images/PEP_125Diner_3x4.png"
             srcset="https://www.pepsi.com/en-us/refresh082123/images/PEP_125Diner_3x4.png 700w, https://www.pepsi.com/en-us/refresh082123/images/PEP_125Diner_16x9@3x.png 1200w"
             loading="lazy" width="100%" height="100%" alt="Pepsi Diner 125 - Enter Now">
-    </div>
-    <div class="parag">
-        <p>NO PURCHASE NECESSARY. Internet Access Required. Open to legal residents of 50 US/DC, 18 or older (19 or
-            older if a resident of AL or NE) at time of entry. Begins 8/23/23, 12:00:00 p.m. ET & ends</p>
-        <p>9/16/23, 11:59:59 p.m. ET. Subject to Official Rules available at Pepsi.com. Limit one entry per person/email
-            address per day. Sponsor: Pepsi-Cola Company,</p>
-        <p>700 Anderson Hill Road, Purchase, New York 10577.</p>
-        <br>
-        <br>
-        <p>All beverage related trademarks are owned by PepsiCo, Inc. ©2023</p>
-    </div>
-    <!-- background img -->
-
-    <div class="bottel-img">
-        <h1 class="animate__animated animate__bounce">GET IT NOW!</h1>
     </div>
 
     <video controls="" controlslist="nodownload noremoteplayback" class="other__video" kind="captions" type="video/mp4"
         src="https://www.pepsi.com/en-us/refresh082123/media/Titan_TR_Digital_30_PETD3091000H_CreativeX_sm.mp4"
         poster="https://www.pepsi.com/en-us/refresh082123/media/titan_vid.png" autoplay="true" loop="true"
         playsinline="true" muted="true"></video>
+
+    <div class="images-pepsi">
+        <img srcset="https://www.pepsi.com/en-us/refresh082123/images/PEP_125_MegaMix_KV_16x9@3x.png 1200w,
+                         https://www.pepsi.com/en-us/refresh082123/images/PEP_MegaMix_3x4@3x.png 700w"
+            sizes="(max-width: 400px) 300px, 1024px"
+            src="https://www.pepsi.com/en-us/refresh082123/images/PEP_MegaMix_Mobile@3x.png" loading="lazy" width="auto"
+            height="100%" alt="125 Years of Pepsi">
+    </div>
 
     <div class="footers">
         <div class="footer-1">
@@ -102,63 +120,103 @@
         <div class="foot-img">
             <div class="foot-img-1"><img class="social__item-image"
                     src="https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_WCPZS_Cans.png"
-                    alt="Follow Us On Instagram" role="presentation" loading="lazy"></div>
+                    alt="Follow Us On Instagram" role="presentation" loading="lazy">
+            </div>
             <div class="foot-img-1"><img class="social__item-image"
                     src="https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_Licensing.png"
-                    alt="Follow Us On Twitter" role="presentation" loading="lazy"></div>
+                    alt="Follow Us On Twitter" role="presentation" loading="lazy">
+            </div>
             <div class="foot-img-1"><img class="social__item-image"
                     src="https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_Logo+Cans.png"
-                    alt="Check us out on Facebook" role="presentation" loading="lazy"></div>
+                    alt="Check us out on Facebook" role="presentation" loading="lazy">
+            </div>
             <div class="foot-img-1"><img class="social__item-image"
                     src="https://www.pepsi.com/en-us/refresh082123/images/social/PEP_TITAN_R34_LaunchAssets_Burger_EF_v1.png"
-                    alt="out on Youtube" role="presentation" loading="lazy"></div>
+                    alt="out on Youtube" role="presentation" loading="lazy">
+            </div>
             <div class="foot-img-1"><img class="social__item-image"
                     src="https://www.pepsi.com/en-us/refresh082123/images/social/PEPSI_2023_PR_Photography_Overhead.png"
-                    alt="Check us out on TikTok" role="presentation" loading="lazy"></div>
+                    alt="Check us out on TikTok" role="presentation" loading="lazy">
+            </div>
             <div class="foot-img-1"><img class="social__item-image"
                     src="https://www.pepsi.com/en-us/refresh082123/images/social/THREADS.png"
-                    alt="Check us out on TikTok" role="presentation" loading="lazy"></div>
+                    alt="Check us out on TikTok" role="presentation" loading="lazy">
+            </div>
         </div>
     </div>
-    <div class="footer-end">
-        <div class="pepsi-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Pepsi_2023.svg" />
-        </div>
-        <div class="content-1">
-            <p>CONTECT US</p>
-            <P>TERM & CONDITION</P>
-            <P>PRIVACY POLICY</P>
-        </div>
-        <div class="content-1">
-            <p>COPYRIGHT</p>
-            <P>PRODUCT FACTS</P>
-            <P>STORE LOCATOR</P>
-        </div>
-        <div class="content-1">
-            <P>SERVE PEPSI</P>
-            <P>ABOUT OUR ADS</P>
-            <P>CAREERS</P>
-        </div>
-        <div class="icons">
-            <div class="icon-1"><img
-                    src="//www.pepsi.com/en-us/refresh082123/images/social/icon-instagram.svg?mtime=20180110134805"
-                    alt="instagram icon" /></div>
-            <div class="icon-1"><img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-x.svg"
-                    alt="twitter icon"></div>
-            <div class="icon-1"><img
-                    src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-facebook.svg?mtime=20180110134803"
-                    alt="facebook icon"></div>
-            <div class="icon-1"><img
-                    src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-youtube.svg?mtime=20180110134811"
-                    alt="youtube icon"></div>
-            <div class="icon-1"><img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-tiktok.svg"
-                    alt="tiktok icon"></div>
-            <div class="icon-1"><img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-threads.svg"
-                    alt="tiktok icon"></div>
-        </div>
 
-    </div>
+    <section class="footeur">
+        <div class="containerd">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-2 pepsio-log ">
+                    <div class="pepsi-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Pepsi_2023.svg" />
+                    </div>
 
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 we">
+
+                    <ul>
+
+                        <li>CONTECT US</li>
+                        <li>TERM & CONDITION</li>
+                        <li>PRIVACY POLICY</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 we">
+
+                    <ul>
+                        <li>COPYRIGHT</li>
+                        <li>PRODUCT FACTS</li>
+                        <li>STORE LOCATOR</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 we">
+
+                    <ul>
+                        <li>SERVE PEPSI</li>
+                        <li>ABOUT OUR ADS</li>
+                        <li>CAREERS</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 ">
+                    <div class="icon-1"><img
+                            src="//www.pepsi.com/en-us/refresh082123/images/social/icon-instagram.svg?mtime=20180110134805"
+                            alt="instagram icon" />
+                    </div>
+
+                    <div class="icon-1"><img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-x.svg"
+                            alt="twitter icon">
+                    </div>
+
+                    <div class="icon-1"><img
+                            src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-facebook.svg?mtime=20180110134803"
+                            alt="facebook icon">
+                    </div>
+
+                    <div class="icon-1"><img
+                            src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-youtube.svg?mtime=20180110134811"
+                            alt="youtube icon">
+                    </div>
+
+                    <div class="icon-1"><img
+                            src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-tiktok.svg"
+                            alt="tiktok icon">
+                    </div>
+
+                    <div class="icon-1"><img
+                            src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-threads.svg"
+                            alt="tiktok icon">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="end">
+            <p>copy write: made by Musa Qazim <i class="fa-brands fa-dribbble fa-flip" style="color: #fa050d;"></i> </p>
+        </div>
+    </section>
 
 </body>
 

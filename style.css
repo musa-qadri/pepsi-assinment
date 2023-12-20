@@ -15,32 +15,54 @@ body {
 
 .head {
     width: 100%;
-    height: 115px;
+    height: 65px;
     background-color: rgb(4, 4, 248);
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    /* flex-direction: row;
-    justify-content: space-between; */
     font-family: 'Heebo', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     position: fixed;
     top: 0px;
     flex: 1;
 }
+.container{
+    background-color: rgb(4, 4, 248) !important;
+}
+.navbar{
+    background-color:rgb(4, 4, 248) !important ;
+}
+.navbar-brand img{
+    width:75px;
+    /* padding-left: 20px; */
+    margin-left: 30px;
+}
+.collapse li a{
+    color: white !important;
+    font-size: 19px;
+    font-weight: 800;
+    /* padding-left: 20px; */
+    margin-left: 50px;
+}
+.btn {
+    background-color:rgb(4, 4, 248) !important ;
+    color: white !important;
+    font-weight: 850 !important;
+    font-size: 18px !important;
+    margin-right: 35px !important;
+    border-radius: 30px !important;
+    padding: 5px 30px !important;
+    border-color: white !important;
+}
 
 .head-6 {
-    flex: 2 !important;
+    flex:2 !important;
 }
 
 .foot-img {
     display: flex;
 }
-
-/* .head-5,
-.btn-hamb {
-    display: none;
-} */
 
 .pvt {
     display: none;
@@ -53,6 +75,16 @@ body {
 }
 .text-1{
     display: flex;
+}
+
+.foot-img {
+    /* display: flex; */
+    flex-direction: row;
+    width: 80%;
+    margin: 0px auto;
+    border: 5px solid blue;
+    background-color: black;
+    
 }
 
 @media only screen and (max-width: 1024px) {
@@ -103,7 +135,7 @@ body {
    
 
     .foot-img {
-        display: none;
+        /* display: none; */
     }
     .texts{
         display: none;
@@ -116,8 +148,6 @@ body {
     .text123 {
         font-family: 'Heebo', sans-serif;
         width: 100%;
-        height: 450px;
-        margin-top: 50px;
         background-color: black;
         color: white;
         display: flex;
@@ -127,12 +157,13 @@ body {
     }
     
     .text123 h2 {
-        font-size: 100px;
+        font-size: 3rem;
+        font-weight: 1000 !important;
         width: 100%;
-        height: 500;
-        line-height: 90px;
+        /* height: 500; */
+        /* line-height: 90px; */
         text-align: center;
-        margin: 0px;
+        /* margin: 0px; */
     }
     
     .text123 h3 {
@@ -144,70 +175,89 @@ body {
     
     }
     #blue-font{
-        width: 490px;
-        height: 90px;
         margin: 0px auto;
-    }
-    
-    #blue-font {
+        padding: 0px 10px;
+        margin-bottom: 10px;
         text-align: center;
-        font-size: 60px;
+        /* font-size: 60px; */
         color: white !important;
         background-color: blue;
+        height: 100%;
     }
-        /* next work */
-        .text-1{
-            display: none;
-        }
-        .text-786{
-            
-        }
-            
-    
-    .text-1 {
-        font-family: 'Passion One', cursive;
-        display: flex;
-        flex-direction: column;
+    .footeur{
+        background-color: black !important;
+    }
+    .iconv{
+        background-color: blue;
+        /* padding: 10px 0px; */
+        width: 50% !important;
+        margin: 0px auto;
         text-align: center;
-        width: 100%;
-        height: 260px;
-        background-color: black;
-        margin: 0px;
-        padding-top: 25px;
-    
-    
+        align-items: center;
+
     }
-    
+       
+
+}
+
+@media only screen and (max-width: 600px){
     .text-1 h2 {
-        margin: 0px;
-        font-size: 90px;
-        color: white;
-        height: 60px;
-        padding-bottom: 17px;
+        font-size: 4rem;
+        line-height: 80px;
     }
     
     .text-1 h3 {
-        margin: 0px;
-        color: blue;
-        font-size: 70px;
-        height: 50px;
-        padding-bottom: 20px;
+     
+        font-size: 2rem;
+        line-height: 80px;
     }
     
     .text-1 h1 {
-        margin: 0px;
-        height: 100px;
+      
         padding-bottom: 10px;
-        line-height: 100px;
+        line-height: 90px;
         color: blue;
         font-size: 140px;
     }
-   
+    
+}
+
+
+@media only screen and (max-width: 380px){
+    #blue-font{
+        font-size: 40px !important;
+    }
+
+    .text-1 h2 {
+        font-size: 3rem !important;
+        line-height: 60px !important;
+    }
+    
+    .text-1 h3 {
+     
+        font-size: 3rem !important;
+        line-height: 60px !important;
+    }
+    
+    .text-1 h1 {
+      
+        /* padding-bottom: 10px; */
+        line-height: 50px !important;
+        color: blue;
+        font-size: 50px !important;
+    }
+    .foot-img {
+        flex-direction: column !important;
+        width: 90%;
+    }
+    
 
 }
 
 
-
+.images-pepsi img{
+   width:100%;
+}
 
 .headbtn-1 img {
     height: 80px;
@@ -247,24 +297,25 @@ body {
 
 .hero__video {
     width: 100%;
-    margin-top: 116px;
-
 }
 
 .texts {
     font-family: 'Heebo', sans-serif;
     width: 100%;
-    height: 250px;
-    margin-top: 50px;
+    /* height: 250px; */
+    /* margin-top: 20px; */
     background-color: black;
     color: white;
     flex-direction: column;
     text-align: center;
-    padding-top: 10px;
+    padding: 60px 0px;
 }
-
+.weq{
+    padding: 0px 0px;
+}
 .texts h2 {
-    font-size: 130px;
+    font-size: 7rem;
+    font-weight: 700;
     width: 100%;
     line-height: 90px;
     margin: 0px;
@@ -282,6 +333,7 @@ body {
 #blue-font {
     text-align: center;
     color: rgb(24, 24, 214);
+    margin-bottom: 15px;
 }
 
 .img-add img {
@@ -294,37 +346,26 @@ body {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    height: 260px;
     background-color: black;
-    margin: 0px;
-    padding-top: 25px;
+
 
 
 }
 
 .text-1 h2 {
-    margin: 0px;
-    font-size: 90px;
+    font-size: 6rem;
     color: white;
-    height: 60px;
-    padding-bottom: 17px;
 }
 
 .text-1 h3 {
-    margin: 0px;
+   
     color: blue;
-    font-size: 70px;
-    height: 50px;
-    padding-bottom: 20px;
+    font-size: 4rem;
 }
 
 .text-1 h1 {
-    margin: 0px;
-    height: 100px;
-    padding-bottom: 10px;
-    line-height: 100px;
     color: blue;
-    font-size: 140px;
+    font-size: 7rem;
 }
 
 .mid {
@@ -336,7 +377,7 @@ body {
 }
 
 .parag {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -345,70 +386,31 @@ body {
     width: 100%;
     font-family: sans-serif;
 }
-
-.parag p {
-    margin: 0px;
-}
-
-.bottel-img {
-    background: url(//www.sweepstakesbible.com/sites/default/files/sweep_imgs/pressplayonsummer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 900px;
-    position: relative;
-    z-index: -1;
-
-}
-
-.bottel-img h1 {
-    color: white;
-    border: 3px solid white;
-    width: 300px;
-    height: 40px;
-    border-radius: 30px;
-    text-align: center;
-    padding-top: 10px;
-    position: absolute;
-    bottom: 240px;
-    left: 200px;
-    cursor: pointer;
-}
-
 .other__video {
     width: 100%;
 }
 
 .footers {
     width: 100%;
-    height: 420px;
-    /* text-align: center; */
+    margin-bottom: 10px;
 }
 
 .footer-1 {
     width: 100%;
-    height: 80px;
+    /* height: 80px; */
     color: blue;
-    font-size: 40px;
+    /* font-size: 40px; */
     font-family: 'Passion One', cursive;
     text-align: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 
 }
 
-.foot-img {
-    /* display: flex; */
-    flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: center; */
-    border: 5px solid blue;
-    background-color: black;
-    margin: 0px 90px;
-}
+
 
 .foot-img-1 img {
-    width: 249px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     padding: 0px;
 
 }
@@ -439,17 +441,50 @@ body {
     justify-content: start;
 
 }
+.footeur{
+    background-color: blue;
+    /* margin-bottom: 50px !important; */
+    width: 100%;
 
-.icons {
-    width: 350px;
-    height: 40px;
-    margin-top: 55px;
-    display: flex;
-    flex: row;
-    justify-content: space-between;
 }
 
-.icon-1 img {
-    width: 40px;
-    padding: 0px;
+
+.containerd{
+    width: 100%;
+    /* background-color: blue; */
+    padding: 90px 0px;
+    align-items: center;
+    margin: 0px auto;
+    text-align: center;
+    /* margin-bottom: 50px !important; */
+}
+.containerd li{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    list-style: none;
+    width: 100%;
+}
+.we{
+    /* width: 90% !important; */
+    /* background-color: aqua; */
+    /* width: 50% !important;
+    margin: 0px auto !important; */
+}
+.icon-1 img{
+    width: 3rem;
+}
+.iconv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* text-align: center; */
+    /* margin: 0px auto; */
+}
+hr{
+    background-color: white !important;
+
+}
+.end{
+    color: white;
 }
