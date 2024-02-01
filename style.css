@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: black;
+    background-color: black !important ;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -147,7 +147,7 @@ body {
     .text123{
         display: block;
     }
-/* knkksxnqskqssssssssssssssssss */
+
     .text123 {
         font-family: 'Heebo', sans-serif;
         width: 100%;
@@ -163,10 +163,8 @@ body {
         font-size: 3rem;
         font-weight: 1000 !important;
         width: 100%;
-        /* height: 500; */
-        /* line-height: 90px; */
         text-align: center;
-        /* margin: 0px; */
+        
     }
     
     .text123 h3 {
@@ -182,7 +180,6 @@ body {
         padding: 0px 10px;
         margin-bottom: 10px;
         text-align: center;
-        /* font-size: 60px; */
         color: white !important;
         background-color: blue;
         height: 100%;
@@ -192,7 +189,6 @@ body {
     }
     .iconv{
         background-color: blue;
-        /* padding: 10px 0px; */
         width: 50% !important;
         margin: 0px auto;
         text-align: center;
@@ -230,6 +226,9 @@ body {
     #blue-font{
         font-size: 40px !important;
     }
+    .mom img{
+        width: 40px;
+    }
 
     .text-1 h2 {
         font-size: 3rem !important;
@@ -244,7 +243,6 @@ body {
     
     .text-1 h1 {
       
-        /* padding-bottom: 10px; */
         line-height: 50px !important;
         color: blue;
         font-size: 50px !important;
@@ -254,7 +252,6 @@ body {
         width: 90%;
     }
     
-
 }
 
 
@@ -270,7 +267,6 @@ body {
 
 
 }
-
 
 .head li {
     font-family: 'Heebo', sans-serif;
@@ -290,7 +286,6 @@ body {
     text-align: center;
     padding-top: 4px;
 
-
 }
 
 .headbtn-4 {
@@ -305,8 +300,6 @@ body {
 .texts {
     font-family: 'Heebo', sans-serif;
     width: 100%;
-    /* height: 250px; */
-    /* margin-top: 20px; */
     background-color: black;
     color: white;
     flex-direction: column;
@@ -350,9 +343,6 @@ body {
     text-align: center;
     width: 100%;
     background-color: black;
-
-
-
 }
 
 .text-1 h2 {
@@ -406,8 +396,6 @@ body {
 
 }
 
-
-
 .foot-img-1 img {
     width: 100%;
     height: 100%;
@@ -429,8 +417,6 @@ body {
     padding-top: 120px;
     text-align: center;
     
-
-
 }
 .foot-img-1 img:hover{
    filter: grayscale(0);
@@ -464,12 +450,10 @@ body {
 
 .containerd{
     width: 100%;
-    /* background-color: blue; */
     padding: 90px 0px;
     align-items: center;
     margin: 0px auto;
     text-align: center;
-    /* margin-bottom: 50px !important; */
 }
 .containerd li{
     color: white;
@@ -478,12 +462,7 @@ body {
     list-style: none;
     width: 100%;
 }
-.we{
-    /* width: 90% !important; */
-    /* background-color: aqua; */
-    /* width: 50% !important;
-    margin: 0px auto !important; */
-}
+
 .icon{
     width: 100px;
 }
@@ -494,8 +473,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
-    /* text-align: center; */
-    /* margin: 0px auto; */
+    
 }
 hr{
     background-color: white !important;
